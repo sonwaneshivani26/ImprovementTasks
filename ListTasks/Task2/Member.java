@@ -35,7 +35,7 @@ public class ClubManagement {
     public static void deleteMember() {
         System.out.print("Enter member ID to delete: ");
         int id = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
         members.removeIf(member -> member.getId() == id);
         System.out.println("Member deleted successfully.");
     }
