@@ -7,7 +7,7 @@ public class ReplaceElement {
         Collections.addAll(list, "apple", "banana", "apple", "cherry");
 
         System.out.println("Before replacement: " + list);
-        Collections.replaceAll(list, "apple", "orange"); // Replace all "apple" with "orange"
+        Collections.replaceAll(list, "apple", "orange"); 
         System.out.println("After replacement: " + list);
     }
 }
